@@ -1,0 +1,7 @@
+# Official Templates
+templates:
+  webpack: nishuer/webpack-boilerplate
+  gulp: nishuer/gulp-boilerplate
+
+# Complete Message
+completeMsg: "{{#hasPlace}}To get started:\n\n  npm install\n  npm run dev.{{else}}To get started:\n\n  cd {{dirName}}\n  npm install\n  npm run dev.{{/hasPlace}}"

@@ -1,0 +1,35 @@
+{
+  "name": "god-cli",
+  "version": "1.0.0",
+  "description": "A simple CLI, Quickly create front-end automation project",
+  "main": "index.js",
+  "bin": {
+    "god": "bin/god.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nishuer/god-cli.git"
+  },
+  "keywords": [
+    "cli",
+    "webpack"
+  ],
+  "author": "nishu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nishuer/god-cli/issues"
+  },
+  "homepage": "https://github.com/nishuer/god-cli#readme",
+  "dependencies": {
+    "chalk": "^1.1.3",
+    "commander": "^2.9.0",
+    "download-git-repo": "^0.1.2",
+    "handlebars": "^4.0.5",
+    "inquirer": "^1.1.3",
+    "js-yaml": "^3.6.1",
+    "ora": "^0.3.0"
+  }
+}
