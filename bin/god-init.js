@@ -63,15 +63,6 @@ if (fs.existsSync(to)) {
 }
 
 function action() {
-
-    // var source = "{{name}} \n good";
-    // var template2 = Handlebars.compile(source);
-    
-    // var data = { "name": "Alan"};
-    // var result = template2(data);
-    // console.log(result);
-    // process.exit(1);
-
     var tplRepo = _config.getRepo(template);
     var spinner = ora('downloading template...');
     spinner.start();
