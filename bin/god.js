@@ -1,4 +1,5 @@
 #!/usr/bin/env node
+'use strict';
 
 require('commander')
   .version(require('../package').version)

@@ -15,3 +15,21 @@ Example:
 ``` bash
 god init webpack my-project
 ```
+
+## Template
+### List official Templates
+```bash
+god list
+```
+
+### Use custom template
+repository
+
+The short hand repository string to download the repository from:
+- GitHub - github:owner/name or simply owner/name
+- GitLab - gitlab:owner/name
+- Bitbucket - bitbucket:owner/name
+
+```bash
+god init owner/name <project-name>
+```

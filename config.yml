@@ -3,5 +3,44 @@ templates:
   webpack: nishuer/webpack-boilerplate
   gulp: nishuer/gulp-boilerplate
 
-# Complete Message
-completeMsg: "{{#hasPlace}}To get started:\n\n  npm install\n  npm run dev.{{else}}To get started:\n\n  cd {{dirName}}\n  npm install\n  npm run dev.{{/hasPlace}}"
+# Question
+question:
+  name:
+    type: input
+    message: 'Project name'
+  desc: 
+    type: input
+    message: 'Project description'
+    default: 'A web project'
+  author:
+    type: input
+    message: 'Author'
+  preprocessor:
+    type: list
+    message: 'Select a CSS Preprocessor'
+    choices:
+      - Sass
+      - Less
+      - 'none (Not need)'
+  iconfont:
+    type: confirm
+    message: 'Use Font Awesome with iconic font?'
+    default: true
+  lint:
+    type: confirm
+    message: 'Use ESLint to lint your code?'
+    default: true
+  preset:
+    type: list
+    message: 'Select an ESLint Preset'
+    choices:
+      - Airbnb
+      - 'none (Configuring it myself)'
+
+# Path
+path:
+  tmp: '/tmp/god-template-'
+
+# Message
+message:
+  complete: "  Successfully generated '{{dirName}}'\n\n{{#isIn}}  Get started:\n\n   npm install\n   npm run dev.{{else}}  Get started:\n\n   cd {{dirName}}\n   npm install\n   npm run dev.{{/isIn}}"
