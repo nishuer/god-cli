@@ -1,7 +1,7 @@
 # Official Templates
 templates:
   webpack: nishuer/webpack-boilerplate
-  gulp: nishuer/gulp-boilerplate
+  # gulp: nishuer/gulp-boilerplate
 
 # Question
 question:
