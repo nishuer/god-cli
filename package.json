@@ -1,7 +1,7 @@
 {
   "name": "god-cli",
   "version": "1.1.1",
-  "description": "A simple CLI, Quickly create front-end automation project",
+  "description": "A simple CLI, Quickly create frontend automation project",
   "main": "index.js",
   "bin": {
     "god": "bin/god.js"
